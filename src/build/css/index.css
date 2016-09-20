@@ -1,0 +1,92 @@
+/* Color variables start
+----------------------------- */
+/* blue color of tabs */
+/* background color of entire page*/
+/* gray color for PageTitle like Create Application */
+/* gray border for containers with borders */
+/* gray color of text on buttons enabled*/
+/* gray color for labels of input */
+/* dropdown base color */
+/* color of required keyword */
+/* light blue color of alternate row of Grid */
+/* gray color of label with cross */
+/* background color of header */
+/* border-bottom of header */
+/* Color variables end
+----------------------------- */
+/* Font variables start
+----------------------------- */
+/* Font variables end
+----------------------------- */
+/*class to hide tabs*/
+.tab-hidden {
+  display: none;
+}
+.tab-header-cont {
+  padding: 0px;
+}
+li[role=tab] {
+  border: 0px;
+  margin: 0px;
+  display: inline-block;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.selected-tab-title .tab-button {
+  color: #36BAEC;
+  background-color: #FFFFFF;
+  border: 1px solid #94DCF6;
+}
+.tab-button {
+  font-size: 11px;
+  margin: 0px;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  color: #555555;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  width: 80px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 32px;
+  margin-right: 10px;
+  border: 1px solid #D9DBDB;
+}
+.icon-new-tab {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 5px;
+  left: 0px;
+  background-image: url(../../../images/new-tab.png);
+  background-size: 18px;
+}
+.newtab-icon-cont {
+  list-style: none;
+  display: inline-block;
+}
+.tab-panel {
+  border: 1px solid #E5E5E5;
+  text-align: center;
+  line-height: 260px;
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
