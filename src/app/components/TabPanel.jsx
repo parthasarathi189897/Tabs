@@ -1,3 +1,7 @@
+/**
+ * Tab Panel component. Any template can be provided as content.
+ * Author: Parthasarathi Das
+ */
 import React from 'react';
 
 export default class TabPanel extends React.Component{

@@ -1,3 +1,7 @@
+/**
+ * Tab header/tab component.
+ * Author: Parthasarathi Das
+ */
 import React from 'react';
 
 export default class TabHeader extends React.Component{
@@ -11,6 +15,13 @@ export default class TabHeader extends React.Component{
 		);
 	}
 }
+/**
+ * proptypes for TabHeader component.
+ * @tabTitle : string
+ * @tabSelected : bool
+ * @tabNumber : number
+ * @tabClick : function
+ */
 TabHeader.propTypes = {
     tabTitle: React.PropTypes.string,
     tabSelected: React.PropTypes.bool,

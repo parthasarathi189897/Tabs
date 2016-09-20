@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TabExampleContainer from './components/TabExampleContainer';
+import TabExampleContainer from './TabExampleContainer';
 
 /**
  * 

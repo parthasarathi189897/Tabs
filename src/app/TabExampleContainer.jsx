@@ -1,19 +1,6 @@
-# Tabs
-
-#step1:
-
-  ---> Open terminal, navigate to the project folder and do "npm install"
-  
-#step2:
-
-  ---> After all the dependecies installed, fire  "gulp"
-  
-##########################################################
-
-#This is the tab component made using react + es6.
-
-/*Sample component using the tab component*/
-/*
+/**
+ * Sample class/component to use Tab component.
+ */
 import React from 'react';
 import Tabs from './components/Tabs';
 
@@ -68,4 +55,3 @@ export default class TabExampleContainer extends React.Component{
     )
   }
 }
-*/
